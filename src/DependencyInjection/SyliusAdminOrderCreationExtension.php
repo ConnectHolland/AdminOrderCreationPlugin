@@ -39,8 +39,7 @@ final class SyliusAdminOrderCreationExtension extends Extension implements Prepe
     protected function getNamespacesOfMigrationsExecutedBefore(): array
     {
         return [
-            'Sylius\Bundle\CoreBundle\Migrations',
-            'Sylius\Bundle\AdminApiBundle\Migrations',
+            'Sylius\Bundle\CoreBundle\Migrations'
         ];
     }
 }
